@@ -356,6 +356,20 @@ function ProductListing() {
           No products match "{query}" in this category.
         </div>
       )}
+
+      {/* Button variant showcase (task 2 reference) */}
+      <div style={{ marginTop: "36px", padding: "18px", background: "#fff", border: "1px solid #E4E1D8", borderRadius: "10px" }}>
+        <p style={{ fontSize: "11px", textTransform: "uppercase", letterSpacing: "0.08em", color: "#8A8578", fontWeight: 600, marginBottom: "10px" }}>
+          Button component — variants
+        </p>
+        <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+          <Button variant="primary">Primary</Button>
+          <Button variant="secondary">Secondary</Button>
+          <Button variant="danger">Danger</Button>
+          <Button variant="primary" loading>Loading</Button>
+          <Button variant="primary" disabled>Disabled</Button>
+        </div>
+      </div>
     </div>
   );
 }
